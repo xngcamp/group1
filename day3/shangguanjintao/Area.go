@@ -28,10 +28,11 @@ type Cricle struct {
 }
 
 func (c Cricle) Area() float64{
-	area:= c.R *c.R
+	area:= c.R *c.R*3.14
 	return  area
 }
 func main(){
+	//r := Rectangle{H:10.0,L:5.0}
 	var g Graph
 	g = Rectangle{H:10.0,L:5.0}
 	fmt.Println(g.Area())
